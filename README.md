@@ -1,8 +1,5 @@
 # Digital Health Project
 
-## Professor: Mr. Dominik Böhler  
-### By: Fatemeh Ziari  
-
 ## Project Description  
 This project aims to explore, clean, analyze, and visualize medical costs and healthcare expenses by using an existing dataset. This analysis provides helpful insight for the healthcare industry by comparing how different variables influence medical charges. Researchers, healthcare professionals, and analysts can utilize this dataset to better understand medical expenses, helping to inform healthcare policies and pricing strategies.  
 
