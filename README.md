@@ -66,19 +66,19 @@ These insights provide actionable and valuable information for healthcare policy
 - **GitHub Repository**: [Medical Cost Analysis](https://github.com/Mehrana-Ziari/Medical-Cost)  
 - **Live Shiny App**: [Medical Cost Dashboard](https://fatemehziari.shinyapps.io/med_cost/)  
 # Installation & Setup
-# 1. Clone the repository:
+ 1. Clone the repository:
 git clone https://github.com/Mehrana-Ziari/Medical-Costs-Analysis.git
 
-# 2. Install the required R packages (if they are not installed yet):
+ 2. Install the required R packages (if they are not installed yet):
 install.packages(c("shiny", "ggplot2", "dplyr"))
 
-# 3. Run the Shiny application:
+ 3. Run the Shiny application:
 shiny::runApp("path/to/your/app")
 
-# 4. Navigate to the UI in your browser to interact with the visualizations.
+4. Navigate to the UI in your browser to interact with the visualizations.
 
 # Usage
-# After opening the shiny app, you can:
-# - Select a region from the dropdown menu to filter the data by region.
-# - Filter the smokers in the visualizations by using the checkbox.
-# - Explore various data visualizations such as scatter plots and box plots which help to analyze the relationships between medical charges and our different variables like age, BMI, smoking status, and region.
+ After opening the shiny app, you can:
+- Select a region from the dropdown menu to filter the data by region.
+- Filter the smokers in the visualizations by using the checkbox.
+- Explore various data visualizations such as scatter plots and box plots which help to analyze the relationships between medical charges and our different variables like age, BMI, smoking status, and region.
