@@ -67,16 +67,27 @@ These insights provide actionable and valuable information for healthcare policy
 - **Live Shiny App**: [Medical Cost Dashboard](https://fatemehziari.shinyapps.io/med_cost/)
   
 # Installation & Setup
- **1. Clone the repository:**
+ Follow these steps to set up and run the application:
+
+### 1. Clone the Repository
+```sh
 git clone https://github.com/Mehrana-Ziari/Medical-Costs-Analysis.git
+cd Medical-Costs-Analysis
+```
 
- 2. Install the required R packages (if they are not installed yet):
+### 2. Install Required R Packages
+Open R or RStudio and run:
+```r
 install.packages(c("shiny", "ggplot2", "dplyr"))
+```
 
- 3. Run the Shiny application:
+### 3. Run the Shiny Application
+```r
 shiny::runApp("path/to/your/app")
+```
 
-4. Navigate to the UI in your browser to interact with the visualizations.
+### 4. Open in Browser
+Navigate to the displayed URL in your browser to interact with the visualizations.
 
 # Usage
  After opening the shiny app, you can:
