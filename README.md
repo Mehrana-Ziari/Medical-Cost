@@ -35,18 +35,18 @@ The primary user persona for this project is **Healthcare Policy Analysts**, who
 2. **Identify High-Risk Groups**: Understanding how variables like smoking status, BMI, and age impact medical costs helps prioritize at-risk populations.  
 3. **Inform Policy Decisions**: Insights from the data can guide the development of policies that promote equitable and cost-effective healthcare.  
 
-## Key Insights from Analysis  
+## Key Insights from Analysis is   
 
-### Impact of Smoking  
+### Impact of Smoking on Charges 
 Across all four regions (**Northeast, Northwest, Southeast, and Southwest**), **smokers consistently have much higher mean and median charges** compared to non-smokers.  
 - In the **Southeast**, smokers have a **mean charge of $34,845**, while non-smokers pay an average of **$8,032**—a difference of over **4x**.  
 
-### BMI and Medical Charges  
+### Impact of BMI on Charges 
 - **Patients with higher BMI values are shown to have higher medical charges**. This emphasizes the importance of weight management initiatives.  
 - **Underweight patients have the lowest mean charge ($8,852) and median charge ($6,759)**.  
 - **Obese individuals experience the highest medical costs**, with a **mean charge of $15,460** and a **median charge of $9,880**.  
 
-### Age and Charges  
+### Impact of Age on Charges   
 - **Older patients generally face higher medical expenses**, suggesting a need for **preventive care programs targeting older demographics**.  
 - **Young Adults (18-34 years old):** Mean charge **$9,673**, median charge **$4,074**.  
 - **Middle-Aged (35-49 years old):** Mean charge **$13,744**, median charge **$8,282**.  
@@ -68,26 +68,20 @@ These insights provide actionable and valuable information for healthcare policy
 ## Links  
 - **GitHub Repository**: [Medical Cost Analysis](https://github.com/Mehrana-Ziari/Medical-Cost)  
 - **Live Shiny App**: [Medical Cost Dashboard](https://fatemehziari.shinyapps.io/med_cost/)  
-
-## Installation & Setup  
-
-### Clone the repository:  
-```sh
+# Installation & Setup
+# 1. Clone the repository:
 git clone https://github.com/Mehrana-Ziari/Medical-Costs-Analysis.git
-### Install the required R packages (if they are not installed yet):
-```r
+
+# 2. Install the required R packages (if they are not installed yet):
 install.packages(c("shiny", "ggplot2", "dplyr"))
-Run the Shiny application:
-r
-Copy
-Edit
+
+# 3. Run the Shiny application:
 shiny::runApp("path/to/your/app")
-Navigate to the UI in your browser to interact with the visualizations.
-Usage
-md
-Copy
-Edit
-After opening the **Shiny app**, you can:
-- **Select a region** from the dropdown menu to filter the data by region.
-- **Filter smokers** in the visualizations using the checkbox.
-- **Explore various data visualizations** such as scatter plots and box plots to analyze t
+
+# 4. Navigate to the UI in your browser to interact with the visualizations.
+
+# Usage
+# After opening the shiny app, you can:
+# - Select a region from the dropdown menu to filter the data by region.
+# - Filter the smokers in the visualizations by using the checkbox.
+# - Explore various data visualizations such as scatter plots and box plots which help to analyze the relationships between medical charges and our different variables like age, BMI, smoking status, and region.
