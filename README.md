@@ -72,13 +72,4 @@ Once the Shiny app is up and running, you can:
 - Highlight smokers in the visualizations using the checkbox.
 - Explore various data visualizations such as scatter plots and box plots to analyze the relationships between medical charges and variables like age, BMI, smoking status, and region.
 
-## R Files
-- `server.R`: Contains the server-side logic to handle data processing and render visualizations.
-- `ui.R`: Defines the user interface of the Shiny app, including inputs and output plots.
-
-## Data Files
-- `medical_costs.csv`: The main dataset used in the project.
-
-## renv.lock file
-Make sure to include your `renv.lock` file with all the necessary dependencies for your R environment.
 
