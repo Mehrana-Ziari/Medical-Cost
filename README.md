@@ -64,9 +64,10 @@ These insights provide actionable and valuable information for healthcare policy
 
 ## Links  
 - **GitHub Repository**: [Medical Cost Analysis](https://github.com/Mehrana-Ziari/Medical-Cost)  
-- **Live Shiny App**: [Medical Cost Dashboard](https://fatemehziari.shinyapps.io/med_cost/)  
+- **Live Shiny App**: [Medical Cost Dashboard](https://fatemehziari.shinyapps.io/med_cost/)
+  
 # Installation & Setup
- 1. Clone the repository:
+ **1. Clone the repository:**
 git clone https://github.com/Mehrana-Ziari/Medical-Costs-Analysis.git
 
  2. Install the required R packages (if they are not installed yet):
