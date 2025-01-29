@@ -47,8 +47,7 @@ This project leverages the following technologies:
 - **ggplot2**: A data visualization package for creating plots and charts.
 - **dplyr**: A package for data manipulation and cleaning.
 
-## Links
-- [GitHub Repo](https://github.com/Mehrana-Ziari/Medical-Cost)
+## Link to Shiny Application
 - [Shiny Application](https://fatemehziari.shinyapps.io/med_cost/)
 
 ## Installation & Setup
