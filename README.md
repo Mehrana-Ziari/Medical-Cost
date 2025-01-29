@@ -72,11 +72,10 @@ These insights provide actionable and valuable information for healthcare policy
 ### 1. Clone the Repository
 ```sh
 git clone https://github.com/Mehrana-Ziari/Medical-Costs-Analysis.git
-cd Medical-Costs-Analysis
 ```
 
 ### 2. Install Required R Packages
-Open R or RStudio and run:
+
 ```r
 install.packages(c("shiny", "ggplot2", "dplyr"))
 ```
